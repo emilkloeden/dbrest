@@ -12,7 +12,8 @@
     "db:studio": "prisma studio",
     "generate:all": "npm run db:pull && npm run db:generate && npm run generate:zod && npm run generate:routes",
     "generate:zod": "tsx scripts/generate-zod.ts",
-    "generate:routes": "tsx scripts/generate-routes.ts"
+    "generate:routes": "tsx scripts/generate-routes.ts",
+    "generate:example-db": "tsx scripts/generate-example-db.ts"
   },
   "dependencies": {
     "@fastify/cors": "^8.4.0",
