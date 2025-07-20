@@ -1,0 +1,14 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator zod {
+  provider  = "zod-prisma-types"
+  output    = "../src/generated/zod"
+  camelCase = "true"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:/home/emil/ai/dbrest/db/example.db"
+}
