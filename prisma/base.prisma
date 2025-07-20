@@ -10,5 +10,5 @@ generator zod {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:/home/emil/ai/dbrest/db/example.db"
+  url      = "file:db/example.db"
 }
